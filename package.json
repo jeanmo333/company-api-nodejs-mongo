@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "build": "babel src --out-dir build",
-    "start": "node build/index.js"
+    "start": "node build/index.cjs"
   },
   "author": "Moril Jean-francois",
   "license": "ISC",
