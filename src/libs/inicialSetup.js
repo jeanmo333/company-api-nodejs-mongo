@@ -1,4 +1,3 @@
-
 import Roles from "../models/Roles.js";
 
 export const createRole = async () => {
@@ -14,6 +13,6 @@ export const createRole = async () => {
 
     console.log(values);
   } catch (error) {
-      console.error(error);
+    console.error(error);
   }
 };
